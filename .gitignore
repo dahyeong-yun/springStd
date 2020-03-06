@@ -1,23 +1,23 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
+03_dahyeoung/pjt/HELP.md
+03_dahyeoung/pjt/target/
+03_dahyeoung/pjt/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
 
 ### STS ###
 .apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+03_dahyeoung/pjt/.classpath
+03_dahyeoung/pjt/.factorypath
+03_dahyeoung/pjt/.project
+03_dahyeoung/pjt/.settings
+03_dahyeoung/pjt/.springBeans
+03_dahyeoung/pjt/.sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+03_dahyeoung/pjt/.idea
+03_dahyeoung/pjt/*.iws
+03_dahyeoung/pjt/*.iml
+03_dahyeoung/pjt/*.ipr
 
 ### NetBeans ###
 /nbproject/private/
@@ -28,7 +28,7 @@ target/
 build/
 
 ### VS Code ###
-.vscode/
+03_dahyeoung/pjt/.vscode/
 
 ### Custom ###
 03_dahyeoung/AdminLTE-master
