@@ -5,8 +5,6 @@
 
 <!-- Contents -->
 <div layout:fragment="content" class="wrap">
-    <!-- 입력 부분 -->
-    
     <!-- 리스트 -->
     <div class="contents">
         <div class="task" th:each="task : ${tasks}">
@@ -18,6 +16,7 @@
         </div>
     </div>
 </div>
+
 <!-- End of Contents -->
 
 <!-- Contents -->
@@ -28,8 +27,8 @@
 <!-- End of Contents -->
 
 <!-- Contents -->
-<th:block layout:fragment="	">
-	<script th:src="@{custom/js/index/page_index.js}"></script>
+<th:block layout:fragment="customScript">
+    <script th:src="@{custom/js/index/page_index.js}"></script>
 </th:block>
 <!-- End of Contents -->
 

@@ -18,8 +18,8 @@ $(function(){
 		
 		$.ajax({
 			type : "POST",
-			url : // "${pageContext.request.contextPath}/bmp/getComList"
-			data : data // JSON.stringify(params),
+			url : "",// "${pageContext.request.contextPath}/bmp/getComList"
+			data : data, // JSON.stringify(params),
 			dataType : "json",
 			async : false,
 			cache : false,
@@ -37,10 +37,19 @@ $(function(){
 /**
  * 이벤트 처리
  * */
-	// 할일 추가 버튼 클릭 이벤트
+	// 할일 추가 버튼 click
     $("#taskAddBtn").on("click", function() {
         console.log("c");  
     });
     
     // 입력 검증
+/*
+	// 할일 추가 버튼 mouseover, out
+	$("#taskAddBtn")
+		.mouseover(function() {
+			$(this).addClass("over");
+		})
+		.mouseout(function() {
+			$(this).removeClass("over");
+		});*/
 });
